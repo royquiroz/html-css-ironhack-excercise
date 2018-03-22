@@ -1,0 +1,279 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300');
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-family: "Open Sans","OpenSans",sans-serif;
+}
+
+nav {
+	background-color: #C12127;
+	color: rgba(255,255,255,0.8);
+	padding: 10px;
+	margin: auto;
+	font-size: 14.4px;
+	font-weight: 400;
+}
+  
+nav a {
+	color: rgba(255,255,255,0.8);
+	text-decoration: none;
+}
+
+.top-left {
+	display: inline-block;
+	margin-left: 10px;
+}
+
+.acronym {
+	padding-left: 1em;
+	color: rgb(255, 255, 255)
+}
+
+.top-links {
+	float: right;
+	padding: 0;
+	margin: 0 20px 0 0;
+}
+
+.top-links li {
+	display: inline-block;
+	margin: 0 10px;
+}
+
+header {
+	background: url(./images/city-scape.svg) 0 0 no-repeat;
+  background-size: cover;
+	height: 26em;
+	margin: 0 auto;
+  padding: 1vh 0;
+}
+
+.search {
+	padding: 20px;
+	height: 50px;
+}
+
+.npm-logo {
+	height: 100%;
+	float: left;
+}
+
+.search-bar {
+	width: 70%;
+	height: 3.25em;
+	padding-left: 1em;
+	margin-left: 1.25em;
+	background-color: rgb(31, 82, 111);
+	border: 1px solid rgba(255,255,255,.2);
+	font-size: 1em;
+	float: left;
+}
+
+.header-link {
+	color: rgba(255,255,255,.8);
+	text-decoration: none;
+	font-size: 1.125em;
+}
+
+header span {
+	color: rgba(255,255,255,.8);
+	margin-top: .8em;
+	margin-left: 1.25em;
+	float: left;
+}
+
+.bear-logo {
+	float: left;
+  margin-top: .25em;
+	margin-left: .1em;
+	height: 85%;
+}
+
+.background {
+	color: white;
+	width: 72%;
+	margin: 0 auto;
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
+.background h1 {
+	letter-spacing: 2px;
+	padding-bottom: .5em;
+	font-size: 3em;
+}
+
+.description {
+	letter-spacing: 1px;
+	padding-bottom: 2em;
+}
+
+.link-btn-orange {
+	background-color: rgb(240, 146, 51);
+  text-decoration: none;
+  font-size: 1em;
+  font-weight: 300;
+  color: white;
+  padding: .75em 2em .75em 2em;
+  border-radius: 2em;
+}
+
+#npm-orgs {
+	margin: 0 auto;
+	width: 100%;
+	padding: 15vh 0;
+	background-color: rgb(39, 53, 71);
+	color: rgba(255,255,255,.8);
+}
+
+.col-2 {
+	width: 40%;
+}
+
+section img {
+	padding-left: 13%;
+	padding-right: 2%
+}
+
+.orgs-text {
+	float: right;
+	letter-spacing: 2px;
+}
+
+.orgs-text h2 {
+	font-size: 2em;
+}
+
+.orgs-text li {
+	letter-spacing: 1px;
+  top: -9.5vh;
+  line-height: 2.5em;
+	font-weight: 100;
+}
+
+.orgs-text ul {
+	padding-left: 1.5em;
+	padding-bottom: 2em;
+}
+
+.link-btn-red {
+	background-color: rgb(203, 56, 55);
+  text-decoration: none;
+  font-size: 1em;
+  font-weight: 300;
+  color: white;
+  padding: .75em 2em;
+	border-radius: 2em;
+}
+
+.orgs-text span {
+	letter-spacing: .5px;
+	font-size: 14px;
+	position: relative;
+	top: 2vh;
+}
+
+.orgs-text .link {
+	color: rgba(255,255,255,.8);
+	text-decoration: none;
+	font-size: 1.125em;
+}
+
+#what-npm {
+	background: url(./images/forklift.svg) 0 0 no-repeat;
+  background-size: cover;
+	height: 30em;
+	position: relative;
+}
+
+.what-npm-text {
+	position: absolute;
+	top: 10vh;
+	left: 30vh;
+	color: white;
+	letter-spacing: 1px;
+}
+
+.what-npm-text h2 {
+  position: relative;
+  top: 4vh;
+  width: 40%;
+  font-size: 2em;
+}
+
+.what-npm-text p {
+	position: relative;
+	font-size: 1em;
+	top: 8vh;
+  width: 38%;
+  font-weight: 100;
+}
+
+.link-btn-green {
+	background-color: rgb(49, 68, 88);
+  text-decoration: none;
+  font-size: 1em;
+  font-weight: 300;
+  color: white;
+  padding: .75em 2em .75em 2em;
+	border-radius: 2em;
+	position: relative;
+	top: 12vh;
+}
+
+.container {
+	padding-left: 8%;
+	padding-right: 8%;
+	margin: 7vh 0;
+}
+
+#npm-blocks h2 {
+	color: rgb(83, 88, 98);
+	text-align: center;
+	font-size: 2em;
+}
+
+.npm-blocks-text {
+	color: rgb(135, 145, 156);
+	text-align: center;
+	padding-top: 3vh;
+	padding-bottom: 3vh;
+	font-size: 1em;
+}
+
+article {
+	width: 33%;
+	color: rgb(135, 145, 156);
+	text-align: center;
+	display: block;
+	float: left;
+}
+
+article img {
+	padding: 0;
+}
+
+article h3 {
+	margin: 2vh 0;
+	color: black;
+	font-weight: 300;
+  font-size: 1.25em;
+}
+
+article p {
+  padding: 0 20% 0 20%;
+  width: 60%;
+}
+
+article a {
+	color: rgb(208, 74, 73);
+	text-decoration: none;
+}
+
+.clearfix {
+  clear: both;
+}
